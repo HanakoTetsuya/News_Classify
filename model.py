@@ -1,6 +1,6 @@
 import streamlit as st
-#from sklearn.feature_extraction.text import TfidfVectorizer
-#from sklearn.linear_model import LogisticRegression
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import LogisticRegression
 import pickle
 
 # loading model
